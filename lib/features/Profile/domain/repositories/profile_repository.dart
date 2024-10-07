@@ -1,4 +1,4 @@
-import '../../../../core/error.dart';
+import '../../../../core/error/error.dart';
 import '../entities/profile.dart';
 import 'package:dartz/dartz.dart';
 

@@ -2,8 +2,11 @@ import 'package:my_ca/features/Profile/data/datasources/remote_data_source.dart'
 
 Future<void> main() async {
   final ProfileRemoteDataSourceImpl pr = ProfileRemoteDataSourceImpl();
-  var response = await pr.getAllUsers(1);
-  for (var element in response) {
-    print(element.toJson());
+
+  try {
+    var response = await pr.getUser(1);
+    print(response.toJson());
+  } catch (e) {
+    print(e);
   }
 }

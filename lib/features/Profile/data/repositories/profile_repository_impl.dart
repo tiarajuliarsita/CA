@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
 import 'package:hive/hive.dart';
 
-import 'package:my_ca/core/error.dart';
+import 'package:my_ca/core/error/error.dart';
 import 'package:my_ca/features/Profile/data/datasources/local_data_source.dart';
 import 'package:my_ca/features/Profile/data/datasources/remote_data_source.dart';
 
